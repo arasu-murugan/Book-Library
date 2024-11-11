@@ -1,0 +1,76 @@
+/* BorrowPage.css */
+
+.borrow-page {
+  background-color: #1c1c1c; /* Dark background */
+  color: #e0f7fa; /* Light cyan text */
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.borrow-header {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
+  margin-bottom: 2rem;
+}
+
+.borrow-form {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 2px solid #81d4fa;
+  background-color: #2c2c2c;
+  color: #e0f7fa;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #ff8a80;
+}
+
+.submit-button {
+  background-color: #81d4fa;
+  color: #000;
+  padding: 0.8rem 2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #00bcd4;
+}
+
+.message {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #ff8a80; /* Highlight message in neon pink */
+}

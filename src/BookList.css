@@ -1,0 +1,67 @@
+/* BookList.css */
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .loading-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .loading-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .loading-card img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .inline {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .borrow-button-container,
+  .payment-button-container {
+    margin: 10px 0;
+  }
+  
+  .borrow-button,
+  .payment-button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .borrow-button {
+    background-color: #4caf50;
+  }
+  
+  .payment-button {
+    background-color: #ff5722;
+  }
+  
+  .borrow-button:hover,
+  .payment-button:hover {
+    opacity: 0.9;
+  }
+  
